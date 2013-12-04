@@ -1,4 +1,4 @@
-# This is a Berkshelf configuration file. It can be used to declare community
+# sslThis is a Berkshelf configuration file. It can be used to declare community
 # and third-party cookbook dependencies. You can install Berkshelf via the
 # command line by typing:
 #
@@ -10,7 +10,7 @@
 # This declares the default location to search for cookbooks. The key :opscode
 # tells Berkshelf to search community.opscode.com for cookbooks. For a list of
 # other valid keys, see the Berkshelf documentation
-site :opscode
+#ersite :opscode
 
 # Example usage
 # -------------
@@ -32,3 +32,4 @@ site :opscode
 # Uncomment to point at a local cookbook on the filesystem, relative to the
 # current working directory.
 # cookbook "myserver", :path => "/code/myserver-cookbook"
+cookbook "apache2"

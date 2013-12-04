@@ -12,5 +12,9 @@
       "box_url": "https://opscode-vm.s3.amazonaws.com/vagrant/opscode_ubuntu-12.04-i386_provisionerless.box",
       "provision": "chef_client"
     }
+  },
+
+  "ssl": {
+    "verify": false
   }
 }
